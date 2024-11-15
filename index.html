@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayank Infra Developers</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <link href="./dist/styles.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Maven Pro', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-[#f5f5f5] text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-[#1a1a40] text-white p-4 flex justify-between items-center tracking-wide">
+        <div class="text-lg font-bold">Mayank Infra Developers</div>
+        <ul class="flex gap-6">
+            <li><a href="#home" class="hover:text-[#A57D42]">Home</a></li>
+            <li><a href="#projects" class="hover:text-[#A57D42]">Projects</a></li>
+            <li><a href="#about" class="hover:text-[#A57D42]">About Us</a></li>
+            <li><a href="#contact" class="hover:text-[#A57D42]">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-screen bg-cover bg-center relative"
+        style="background-image: url('path/to/hero-image.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative h-full flex flex-col justify-center items-center text-center text-white tracking-wider">
+            <h1 class="text-5xl font-bold mb-4">Open Plots, Endless Possibilities</h1>
+            <p class="text-lg mb-6">Your investment, our commitment.</p>
+            <a href="#projects"
+                class="px-6 py-2 bg-[#A57D42] text-white rounded-lg hover:bg-[#8c6636] transition">Explore Projects</a>
+        </div>
+    </section>
+
+    <!-- Project Highlights -->
+    <section id="projects" class="p-8 bg-[#f5f5f5]">
+        <h2 class="text-3xl font-bold text-center mb-8 tracking-wide">Our Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:-translate-y-1 hover:shadow-2xl">
+                <h3 class="font-semibold text-xl mb-2">Residential Plots</h3>
+                <p class="text-gray-700">Beautiful residential plots ready for building your dream home.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:-translate-y-1 hover:shadow-2xl">
+                <h3 class="font-semibold text-xl mb-2">Commercial Spaces</h3>
+                <p class="text-gray-700">Prime locations for your business investments.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6 transform transition hover:-translate-y-1 hover:shadow-2xl">
+                <h3 class="font-semibold text-xl mb-2">Luxury Villas</h3>
+                <p class="text-gray-700">Exclusive villas with modern amenities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="p-8 bg-white">
+        <h2 class="text-3xl font-bold text-center mb-8 tracking-wide">About Us</h2>
+        <p class="max-w-2xl mx-auto text-center text-gray-700 leading-relaxed">
+            Mayank Infra Developers is a trusted name in the real estate sector, providing prime land and plot
+            investments in Hyderabad. Our vision is to make land ownership simple, transparent, and accessible to all.
+        </p>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="p-8 bg-[#1a1a40] text-white">
+        <h2 class="text-3xl font-bold text-center mb-8 tracking-wide">Contact Us</h2>
+        <form class="max-w-lg mx-auto">
+            <input type="text" placeholder="Name" class="w-full p-4 mb-4 rounded-lg text-black">
+            <input type="email" placeholder="Email" class="w-full p-4 mb-4 rounded-lg text-black">
+            <textarea placeholder="Message" class="w-full p-4 mb-4 rounded-lg text-black"></textarea>
+            <button type="submit"
+                class="w-full px-4 py-2 bg-[#A57D42] text-white rounded-lg hover:bg-[#8c6636] transition">Send
+                Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#1a1a40] text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 md:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Contact Details -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <p>Mayank Infra Developers</p>
+                    <p>Hyderabad, Telangana</p>
+                    <p>Email: <a href="mailto:info@mayankinfra.com"
+                            class="hover:text-[#A57D42]">info@mayankinfra.com</a></p>
+                    <p>Phone: <a href="tel:+919876543210" class="hover:text-[#A57D42]">+91 98765 43210</a></p>
+                </div>
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-[#A57D42]">Home</a></li>
+                        <li><a href="#projects" class="hover:text-[#A57D42]">Projects</a></li>
+                        <li><a href="#about" class="hover:text-[#A57D42]">About Us</a></li>
+                        <li><a href="#contact" class="hover:text-[#A57D42]">Contact Us</a></li>
+                    </ul>
+                </div>
+                <!-- Newsletter -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Subscribe to Our Newsletter</h3>
+                    <form>
+                        <input type="email" placeholder="Your Email" class="w-full p-2 mb-4 rounded-lg text-black">
+                        <button
+                            class="px-4 py-2 bg-[#A57D42] text-white rounded-lg hover:bg-[#8c6636] transition">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="text-center mt-8 text-sm text-gray-400">
+                &copy; 2024 Mayank Infra Developers. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
